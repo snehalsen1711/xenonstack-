@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width", initial-scale=1.0">
+	<title>E-Commerce Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+	<div class="navbar">
+	   <div class="logo">
+          <a href="mine.html" ><img src="C:\Users\KIIT\Desktop\mine\logo1.PNG" width="180px">
+          </a>
+	 </div>
+     <nav>
+      <ul id="MenuIitems">
+        <li><a href="mine.html" ><b><u>Home</u></b> </a></li>
+        <li><a href="product.html" ><b><u>Products</u></b> </a></li>
+        <li><a href="about.html"><b><u>About</u></b></a></li>
+        <li><a href="contact.html"><b><u>Contact</u></b> </a></li>
+        <li><a href="login.html"><b><u>Account</u></b> </a></li>
+      
+      
+      <li><a href="cart.html">
+    <img src="C:\Users\KIIT\Desktop\mine\cart1.PNG" width="20px">
+  </a></li>
+    <img src="C:\Users\KIIT\Desktop\mine\menu.jpeg"width="20px" class="menu-icon" onclick="menutoggle()">
+      
+    </ul>
+  </nav>
+    </div>
+<!--------car---------->
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Products</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="C:\Users\KIIT\Desktop\mine\red shirt.jpeg" >
+                    <div>
+                        <p> Printed Hooded Neck</p>
+                        <small>Price:$50.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$50.00</td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="C:\Users\KIIT\Desktop\mine\f2.jpeg" >
+                    <div>
+                        <p> Printed Men Hooded Neck Red</p>
+                        <small>Price:$150.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$150.00</td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="C:\Users\KIIT\Desktop\mine\f3.jpeg" >
+                    <div>
+                        <p> Red Printed Men Hooded Neck T-Shirt</p>
+                        <small>Price:$200.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$200.00</td>
+        </tr>
+    </table>
+<div class="total-price">
+    <table>
+        <tr>
+            <td>Subtotal</td>
+            <td>$400.00</td>
+        </tr>
+        <tr>
+            <td>Tax</td>
+            <td>$35.00</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td>$435.00</td>
+        </tr>
+
+    </table>
+</div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+    <div class="footer">
+        <div class="small-container">
+          <div class="row">
+            <div class="footer-col-4">
+              <div class="app-logo">
+                <img src="C:\Users\KIIT\Desktop\mine\play.jpeg" width="200px">
+                <img src="C:\Users\KIIT\Desktop\mine\app.jpeg">
+                <h2><u>Download Our App</u></h2>
+              <p>Download App for Android iOS mobile phone</p>
+            </div>
+            </div>
+          
+            <div class="footer-col-4">
+              <img src="C:\Users\KIIT\Desktop\mine\logo1.PNG" width="80px">
+              <p>Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many</p>
+            </div>
+        
+            <div class="footer-col-4">
+              <h2><u>Useful Links</u></h2>
+              <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+              </ul>
+            </div>
+            <div class="footer-col-4">
+              <h2><u>Follow Us On</u></h2>
+              <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>YouTube</li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <p class="copyright">Copyright by Snehal & Hrithik</p>
+          </div>
+          </div>
+<script>
+var MenuItems = document.getElementById("MenuItems");
+MenuItems.style.maxHeight = "0px";
+function menutoggle(){
+if(MenuItems.style.maxHeight == "0px"){
+  MenuItems.style.maxHeight = "200px";
+}
+else {
+  MenuItems.style.maxHeight = "0px";
+}
+}
+</script>
+</body>
+</html>
